@@ -1,0 +1,137 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_left img{
+    float: left;
+    padding: 10px 20px 0px 100px;
+    width: 180px;
+}
+.logo_right{
+    float: right;
+    padding: 20px 70px 0px 0px;
+}
+.logo_right a{
+    text-decoration: none;
+}
+.div{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.div p{
+    font-size: x-large;
+}
+.div1{
+    padding-top:70px;
+    padding-left: 50px;
+}
+.div1 p{
+    color: rgb(96, 89, 89);
+}
+.content{
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(126, 109, 234);
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px -1px grey;
+    font-size: x-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    padding-top: 5px;
+    color: white;
+}
+.content input{
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: gainsboro;
+    border-color: white;
+}
+.content button{
+    height: 45px;
+    width: 100px;
+    margin-left:6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(27, 27, 221);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content_c{
+    padding-left: 250px;
+    padding-bottom: 30px;
+}
+.grid_content{
+    background-color:rgb(222, 246, 246);
+}
+.box{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(242, 252, 252);
+}
+.box_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+.box_grid h1{
+    color: green;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 0px 50px 80px;
+}
+.grid1 .div p{
+    margin-top: 0;
+    font-size: medium;
+    align-items: start;
+}
+.logo_left2 img{
+    padding: 50px 20px 0px 100px;
+    width: 180px;
+}
+.grid2{
+    display: grid;
+    margin-top: -60px;
+    margin-left: -16px;
+    grid-template-columns: auto auto auto auto;
+}
+.grid2 .div img{
+    height: 40px;
+    width: 40px;
+}
+hr{
+    margin: 40px 60px;
+}
+.copyright{
+    margin-left: 60px;
+}
+.copyright img{
+    float: left;
+    padding-right: 6px;
+    width: 14px;
+    height: 14px;
+}
+
+.store img{
+    float: right;
+    height: 40px;
+    margin-top: -40px;
+    padding: 0px 60px 50px 10px;
+}
+.store .appstore{
+    margin-right: -40px;
+}
+.footer_content{
+    padding-bottom: 30px;
+    background-color: rgb(245, 240, 240);
+}

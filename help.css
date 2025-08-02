@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.content{
+    width: 38%;
+    padding: 20px 5px;
+    height: 400px;
+}
+.top{
+    height: 100px;
+    padding: 20px;
+    background-color: #ebf0e0;
+    font-size: larger;
+}
+.top svg{
+    width: 20px;
+    padding-bottom: 20px;
+}
+.topic{
+    font-size: larger;
+}
+.main{
+    margin: 10px 10px;
+}
+.main a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.account img{
+    width: 16px;
+    padding-right: 16px;
+    float: left;
+}
+.uc img{
+    width: 20px;
+    padding-right: 16px;
+    float: left;
+}
+.right_arrow{
+    float: right;
+    margin-top: -32px;
+}
+.payment img{
+    width: 24px;
+}
+.warranty img{
+    width: 20px;
+}
+hr{
+    margin: 12px 4px;
+    opacity: 50%;
+}

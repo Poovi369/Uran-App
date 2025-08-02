@@ -1,0 +1,260 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: -10px;
+    background-color: white;
+    border-bottom: 2px solid rgb(187, 186, 186);
+    width: 100%;
+}
+.logo_left img{
+    float: left;
+    padding: 20px 20px 0px 40px;
+    filter: brightness(100%);
+}
+.logo_right{
+    float: right;
+    padding: 20px 100px 0px 0px;
+}
+.logo_right_content{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_right_left{
+    float: left;
+    border-bottom: 10px;
+    padding-left: 230px;
+}
+.logo_right_right{
+    float: right;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+.logo_right_left select{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.logo_right_right input{
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.content_left{
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content_left h1{
+    padding-top: 30px;
+}
+.star{
+    display: flex;
+}
+.symbol{
+    float: left;
+    padding-top: 12px;
+}
+.rating{
+    float: right;
+    padding-left: 10px;
+}
+.guide{
+    display: flex;
+    margin: 0px;
+    border: 2px solid gainsboro;
+    background-color: rgb(243, 241, 241);
+    border-radius: 10px;
+}
+.guide1{
+    float: left;
+    padding-top:17px ;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.guide1 svg{
+    height: 20px;
+    width: 20px;
+}
+.guide2{
+    float: right;
+    padding-left: 20px;
+}
+.guide3 svg{
+    float: right;
+    padding-top: 15px;
+    padding-left: 120px;
+}
+.box_content{
+    margin: 20px 25px 80px 50px;
+    height: 350px;
+    border: 1px solid rgb(110, 108, 108);
+    padding-right:15px;
+    border-radius: 8px;
+    float: left;
+    width: 50%;
+}
+.box_content p{
+    padding-left: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    text-align: center;
+}
+.grid div{
+    text-align: center;
+}
+.fixed{
+    display: flex;
+}
+.grid_right{
+    float: right;
+    width: 80%;
+}
+.grid_right video{
+    text-align: center;
+    margin-top: -200px;
+}
+.package{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.package_left{
+    border: 1px solid rgb(110, 108, 108);
+    border-radius: 8px;
+}
+.massage_img{
+    padding: 20px 36px;
+    border-radius: 20px;
+}
+.package_right{
+    border: 1px solid rgb(110, 108, 108);
+    border-radius: 8px;
+    height: 350px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-left: 20px;
+}
+.item a{
+    text-decoration: none;
+    color: #572AC8;
+    margin: 10px 0px;
+}
+h2{
+    margin-left: 20px;
+}
+.package_left hr{
+    margin: 20px 20px;
+}
+.item_right{
+    text-align: center;
+}
+.item_right img{
+    border-radius: 8px;
+}
+.btn_add{
+    color: #572AC8;
+    background-color: white;
+    cursor: pointer;
+    border-color: #572AC8;
+    border-radius: 5px;
+    margin-left: -100px;
+    padding: 8px 20px;
+}
+.no_img_btn{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.package_btn{
+    background: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+.cart_top{
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+
+}
+.cart_bottom{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+.cart_bottom p{
+    padding-top: 10px;
+}
+
+.cart_bottom svg{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* footer */
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 0px 50px 80px;
+}
+.grid1 .div p{
+    margin-top: 0;
+    font-size: medium;
+    align-items: start;
+}
+.logo_left2 img{
+    padding: 50px 20px 0px 100px;
+    width: 180px;
+}
+.grid2{
+    display: grid;
+    margin-top: 0px;
+    margin-left: -16px;
+    grid-template-columns: auto auto auto auto;
+}
+.grid2 .div img{
+    height: 40px;
+    width: 40px;
+}
+hr{
+    margin: 40px 60px;
+}
+.copyright{
+    margin-left: 60px;
+}
+.copyright img{
+    float: left;
+    padding-right: 6px;
+    width: 14px;
+    height: 14px;
+}
+
+.store img{
+    float: right;
+    height: 40px;
+    margin-top: -40px;
+    padding: 0px 60px 50px 10px;
+}
+.store .appstore{
+    margin-right: -40px;
+}
+.footer_content{
+    padding-bottom: 30px;
+    background-color: gainsboro;
+}
